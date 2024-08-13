@@ -23,7 +23,7 @@ def load_paper(filename):
         return dataframe
 
 api_key=""
-paper_df=load_paper("5paper_parsed.csv")
+paper_df=load_paper("papers/pdf_pool.csv")
 paper_df_emb= utils.add_emb(paper_df)
 
 process3_object = process3.Process3(api_key, prompt_choice='synthesis', classification=True)
