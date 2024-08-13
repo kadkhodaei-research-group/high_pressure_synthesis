@@ -1,3 +1,4 @@
+<div dir= "ltr">
 Data extraction is done on PDFs having CVD synthesis paragraphs- stored in text format using PyPDF2.
 Process 1: To tabulate data from filtered synthesis paragraphs using chatgpt prompts and API call.
 Process 2: To filter experimental/synthesis paragraphs to forward to Process 1.
